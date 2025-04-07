@@ -10,6 +10,7 @@ from aiogram.client.default import DefaultBotProperties
 # Загружаем токены из переменных окружения
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+print("TELEGRAM_TOKEN:", TELEGRAM_TOKEN)
 
 # Настраиваем логирование
 logging.basicConfig(level=logging.INFO)
